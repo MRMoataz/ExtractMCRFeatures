@@ -29,7 +29,7 @@ def crawl_project_mcr_raw_data(result_path, project_url, status_to_crawl=['aband
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     PROJECT_PATH = 'C:/Users/AQ38570/Desktop/work/mcr_feature_extractor/opendev'
-    PROJECT_URL = "https://review.libreoffice.org"
+    #PROJECT_URL = "https://review.libreoffice.org"
     ALL_PROJECT_STATUS = ['abandoned', 'merged']
     PROJECT_REPOS_PATH = 'C:/Users/AQ38570/Desktop/work/gitim-master/openstack'
     # use this if you need to crawl data for current_project.
