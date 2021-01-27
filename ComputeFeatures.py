@@ -413,6 +413,8 @@ class ExtractChangeData:
             'total_modified_methods_count': 0,
             'total_LOC': 0
         }
+        if data_is_valid :
+            print('valid data from commit')
         for file_modification_data in all_files_commit_data:
             if file_modification_data["complexity"] is not None:
                 files_metrics_from_commit_data['total_complexity'] += float(file_modification_data["complexity"])
